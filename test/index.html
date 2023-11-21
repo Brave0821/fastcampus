@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko"> <!--lang 랭기쥐 en 잉글리쉬 ko한국어 사이트 만들기-->
+
+<head>
+    <meta charset="UTF-8"> <!--문자를 어떤식으로 처리할지 방식 문자인코딩 방식-->
+    <meta name="author" content="Brave" /> <!--name 정보의 종류 content 실제값 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--메타 - 정보  html 문서의 제작자 내용 키워드 같은 여러 정보를 검색엔진이나 브라우저에게 제공 -->
+    <!-- viewport 영역 (모바일 장치에만 영향)-->
+
+    <title>Brave</title> <!--HTML문서의 제목을 정의 EX)NAVER-->
+    <link rel="stylesheet" href="./css/main.css"> <!--link 외부 css파일 연결 href에 경로 설정.-->
+    
+    <!--link를 통해서 브라우저 탭 부분에 아이콘도 연결가능 타이틀 앞에 로고-->
+   
+    <script src="./js/main.js"></script>
+    <!--js 받아올땐 script src -->
+    <script>console.log("Hello!!")</script>
+    <!--script js를 html 문서 안에서 작성하는 경우 -->
+ 
+    <!-- 내용은 바디 받아올땐 해드 main.css 정보를 여기에 받아온다.-->
+    <style> /* css를 html 문서 안에서 작성하는 경우에  사용  */
+        div {
+            text-decoration: underline;
+        }
+    </style> <!-- head안에서 스타일 줄 수 있다.-->
+</head>
+
+<body>
+<div>Hello World</div>
+<p>오늘은 좋은날!
+    태그의 역활 외부에서 css <link rel="stylesheet" href="">
+    외부에서 js는 <script src="/."></script>
+      html 내부에서 js는 <script>console.log("")</script>
+</p>
+    <img src="./images/logo.png" alt="HEROPY"> <!-- 다운 로고 출력 -->
+    <img src="https://heropy.blog/css/images/logo.png" alt="HEROPY"> <!--링크 로고 출력 -->
+
+</body>
+
+</html>
